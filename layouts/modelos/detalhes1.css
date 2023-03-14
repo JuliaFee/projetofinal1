@@ -53,11 +53,13 @@ body {
     padding: 30px;
     margin: 20px;
 }
+/*seção das notas*/
 #nota {
     display: flex;
     justify-content: center;
 
 }
+/*notas*/
 h4 {
     margin-left: 20px;
 }
