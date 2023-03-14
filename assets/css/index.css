@@ -56,3 +56,12 @@ body{
     width: 250px;
     height: 155px;
 }
+#cardfilmeserie {
+    border-left: 25px solid #5B8FB9;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    width: 60%;
+}
