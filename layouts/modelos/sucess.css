@@ -17,10 +17,3 @@ body{
 button:hover{
     background-color: #B6EADA;
 }
-form{
-    display:flex;
-    flex-direction: column;
-    width: 10%;
-    margin: auto; 
-    margin-bottom: 50px;
-}
