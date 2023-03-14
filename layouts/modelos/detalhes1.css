@@ -4,6 +4,8 @@ body{
 ul{
     display: flex;
     padding-left: 30px;
+    text-decoration: none;
+    list-style: none;
 }
 #info{
     display: flex;
@@ -15,5 +17,25 @@ ul{
     margin: 0%;
 }
 #paizao{
+    justify-content: center;
+}
+#onde{
+    display:flex;
+    width: 3px;
+    height: 2px;
+    text-align: end;
+}
+.ondeass {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+li {
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
+}
+#coco {
+    text-align: center;
     justify-content: center;
 }
