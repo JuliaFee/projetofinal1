@@ -34,3 +34,11 @@ body {
 #comentarius1 {
     width: 60%;
 }
+#filmes {
+    width: 200%;
+}
+#textofilme {
+    padding: 30px;
+    margin-left: 50px;
+    text-align: justify;
+}
