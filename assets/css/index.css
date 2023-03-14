@@ -52,7 +52,7 @@ body{
 #bolota {
     display: flex;
 }
-#imagemfimlese {
+.imagemfimlese {
     width: 250px;
     height: 155px;
 }
