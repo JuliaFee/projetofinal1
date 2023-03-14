@@ -1,6 +1,7 @@
 body{
     font-family: 'Franklin Gothic Book';
     margin: 0;
+    align-items: center;
 }
 /*carrossel*/
 .galery {
