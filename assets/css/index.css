@@ -49,3 +49,27 @@ body{
     width: 200px;
     height: 100px;
 }
+#bolota {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
+}
+.imagemfimlese {
+    width: 250px;
+    height: 155px;
+}
+.cardfilmeserie {
+    border-left: 5px solid;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    width: 60%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
