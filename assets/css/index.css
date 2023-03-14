@@ -54,6 +54,8 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    gap: 1rem;
 }
 .imagemfimlese {
     width: 250px;
@@ -67,4 +69,7 @@ body{
     margin: 20px;
     display: flex;
     width: 60%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
