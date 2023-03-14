@@ -13,13 +13,15 @@ body {
     padding: 10px;
 }
 
-.card2 {
+.cardfilme {
     border-left: 25px solid rgb(128, 55, 128);
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
+    margin: 40px;
+    padding-right: 30px;
     display: flex;
+    width: auto;
+
 }
 
 .card1 {
@@ -29,8 +31,20 @@ body {
     padding: 30px;
     margin: 20px;
     display: flex;
+
 }
 
 #comentarius1 {
     width: 60%;
+}
+#filmes {
+    width: 300%;
+}
+#seçaotxt {
+    font-family: 'Franklin Gothic Demi';
+    border-left: 25px solid rgb(128, 55, 128);
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    margin-left: 100px;
+    text-align: justify;
 }
