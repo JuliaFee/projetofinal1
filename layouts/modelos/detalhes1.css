@@ -4,6 +4,8 @@ body{
 ul{
     display: flex;
     padding-left: 30px;
+    text-decoration: none;
+    list-style: none;
 }
 #info{
     display: flex;
@@ -28,5 +30,7 @@ ul{
     height: 45px;
 }
 li {
-    padding-left: 20px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
 }
