@@ -16,18 +16,18 @@ body {
 }
 /*card dos filmes*/
 .cardfilme {
-    border-left: 25px solid rgb(128, 55, 128);
+    border-left:25px solid  #301E67;
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     margin: 40px;
-    padding-right: 30px;
+    padding-right: 80px;
     display: flex;
     width: auto;
 
 }
 /*card's principais*/
 .card1 {
-    border-left: 25px solid rgb(128, 55, 128);
+    border-left:25px solid  #301E67;
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
@@ -46,9 +46,20 @@ body {
 /*seção dos textos*/
 #seçaotxt {
     font-family: 'Franklin Gothic Demi';
-    border-left: 25px solid rgb(128, 55, 128);
+    text-align: justify;
+    border-left: 25px solid #301E67;
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    margin-left: 100px;
-    text-align: justify;
+    padding: 30px;
+    margin: 20px;
+}
+/*seção das notas*/
+#nota {
+    display: flex;
+    justify-content: center;
+
+}
+/*notas*/
+h4 {
+    margin-left: 20px;
 }
