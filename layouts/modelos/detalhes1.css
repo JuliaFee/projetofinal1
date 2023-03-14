@@ -2,7 +2,6 @@
 body {
     font-family: 'Franklin Gothic Book';
     margin: 0;
-    text-align: center;
 }
 /*seções*/
 #seçao {
@@ -16,11 +15,9 @@ body {
 }
 /*card dos filmes*/
 .cardfilme {
-    border-left:25px solid  #301E67;
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     margin: 40px;
-    padding-right: 80px;
     display: flex;
     width: auto;
 
@@ -29,29 +26,39 @@ body {
 .card1 {
     border-left:25px solid  #301E67;
     border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
     display: flex;
-
+    text-decoration: none;
+    color: black;
 }
 /*comentarios*/
 #comentarius1 {
     width: 60%;
 }
+#sinopse{
+    display: flex;
+    padding: 10px;
+    font-family: 'Franklin Gothic Demi';
+}
+#review{
+    display: flex;
+}
+.pfp{
+    width: 64px;
+    height: 64px;
+    padding-right: 10px;
+}
 /*img filmes*/
 #filmes {
-    width: 300%;
+    height: 500px;
+    width: 350px
 }
 /*seção dos textos*/
 #seçaotxt {
-    font-family: 'Franklin Gothic Demi';
-    text-align: justify;
-    border-left: 25px solid #301E67;
-    border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
+    text-align:left;
+    text-decoration: none;
+    color: black;
 }
 /*seção das notas*/
 #nota {
@@ -62,4 +69,8 @@ body {
 /*notas*/
 h4 {
     margin-left: 20px;
+}
+#link {
+    text-decoration: none;
+    color: black;
 }
