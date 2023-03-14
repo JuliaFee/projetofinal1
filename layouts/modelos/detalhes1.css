@@ -53,3 +53,11 @@ body {
     padding: 30px;
     margin: 20px;
 }
+#nota {
+    display: flex;
+    justify-content: center;
+
+}
+h4 {
+    margin-left: 20px;
+}
