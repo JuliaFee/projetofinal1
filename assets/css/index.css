@@ -4,8 +4,8 @@ body{
 }
 /*carrossel*/
 .galery {
-    width: 1000px;
-    height: 720px;
+    width: 1280px;
+    height: 1000px;
     background-color: whitesmoke;
     overflow: hidden;
 }
@@ -16,12 +16,13 @@ body{
     animation-iteration-count: infinite;
 }
 .galery .fotos img {
-    width: 20%;
+    width: 19.9%;
     background-color: whitesmoke;
 
 }
 #aside {
     padding-left: 40px;
+    font-size: 20px;
 }
 .main {
     display: flex;
