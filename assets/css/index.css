@@ -51,6 +51,9 @@ body{
 }
 #bolota {
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .imagemfimlese {
     width: 250px;
