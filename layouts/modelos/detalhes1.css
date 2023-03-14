@@ -23,6 +23,7 @@ ul{
     display:flex;
     width: 3px;
     height: 2px;
+    text-align: end;
 }
 .ondeass {
     border-radius: 100%;
@@ -33,4 +34,8 @@ li {
     margin-left: 5px;
     text-align: center;
     padding: 10px;
+}
+#coco {
+    text-align: center;
+    justify-content: center;
 }
