@@ -3,34 +3,19 @@ body{
     color: aliceblue;
 }
 /*carrossel*/
-.slider
-#destaque1{
-    display: flex;
-    flex-direction: column;
+.galery {
+    width: 640px;
+    height: 360px;
+    background-color: whitesmoke;
+    overflow: hidden;
 }
-#asideA{
-    border: 5px solid #5B8FB9;
-    border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    margin: 40px;
-    padding-right: 30px;
-    width: 30%;
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
+.galery .fotos img {
+    width: 19.9%;
 
-.destaques2{
-    border: 5px solid #5B8FB9;
-    border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    margin: 40px;
-    padding-right: 30px;
-    display: flex;
-    width: auto;
-}
-.placeholderaside{
-    width: 50px;
-    height: 50px;
-}
-
-aside {
-    width: 60%;
 }
