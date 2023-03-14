@@ -3,14 +3,17 @@ body {
     margin: 0;
     text-align: center;
 }
-#seçao{
-    display: flex;
 
+#seçao {
+    display: flex;
+    font-family: 'Franklin Gothic Demi';
 }
-#texto{
+
+#texto {
     padding: 10px;
 }
-.card2{
+
+.card2 {
     border-left: 25px solid rgb(128, 55, 128);
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
@@ -18,7 +21,8 @@ body {
     margin: 20px;
     display: flex;
 }
-.card1{
+
+.card1 {
     border-left: 25px solid rgb(128, 55, 128);
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
@@ -26,6 +30,7 @@ body {
     margin: 20px;
     display: flex;
 }
-#comentarius1{
+
+#comentarius1 {
     width: 60%;
 }
