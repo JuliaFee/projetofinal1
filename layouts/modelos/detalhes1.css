@@ -6,6 +6,18 @@ ul{
     padding-left: 30px;
     text-decoration: none;
     list-style: none;
+    padding-left: 434px;
+}
+li:hover{
+     background-color: rgb(218, 218, 218);
+        border-radius: 30px;
+}
+#titulowhere
+#generos{
+    padding-left: 200px;
+}
+#movieinfo{
+    justify-content: center;
 }
 #info{
     display: flex;
@@ -23,9 +35,10 @@ ul{
     display:flex;
     width: 3px;
     height: 2px;
-    text-align: end;
+    margin-left: 38%;
 }
 .ondeass {
+    border: 2px solid #301E67;
     border-radius: 100%;
     width: 45px;
     height: 45px;
@@ -35,7 +48,7 @@ li {
     text-align: center;
     padding: 10px;
 }
-#coco {
+#where{
     text-align: center;
     justify-content: center;
 }
