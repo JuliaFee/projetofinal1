@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    div
+  - stars = [1, 2, 3, 4, 5];
+    div.star
+      each star in stars
+        input(class='radio radio-#{star}' name='rating' id='star-#{star}' value='#{star}' type='radio')
+
+      each star in stars
+        label(for='star-#{star}' class='star-item star-item-#{star}') #{star} stars
+
+div(dir="rtl")
+  - stars = [1, 2, 3, 4, 5];
+    div.star
+      each star in stars
+        input(class='radio radio-#{star}' name='rating2' id='star2-#{star}' value='#{star}' type='radio')
+
+      each star in stars
+        label(for='star2-#{star}' class='star-item star-item-#{star}') #{star} stars
+</body>
+</html>
