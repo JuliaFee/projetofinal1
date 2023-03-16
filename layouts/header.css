@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(0, 0, 0);
 
@@ -78,3 +79,57 @@ dropdown {
     margin: 30px;
     padding-bottom: 10px;
 }
+=======
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.anav {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: 'berlin sans fb';
+    text-align: left;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0%;
+}
+
+li {
+    margin-left: 100px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+li:hover {
+    background-color: rgb(255, 247, 247);
+    border-radius: 5px;
+}
+
+#menu {
+    margin: 0;
+}
+>>>>>>> 5119febbb9afb09d82d7b906097b7d402bd4c1f9

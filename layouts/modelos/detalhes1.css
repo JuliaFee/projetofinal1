@@ -1,76 +1,54 @@
-/*body*/
-body {
-    font-family: 'Franklin Gothic Book';
-    margin: 0;
+body{
+    font-family: 'dubai medium'
 }
-/*seções*/
-#seçao {
+ul{
     display: flex;
-    font-family: 'Franklin Gothic Demi';
-}
-/*textos*/
-#texto {
-    padding: 10px;
-    font-family: 'Franklin Gothic Demi';
-}
-/*card dos filmes*/
-.cardfilme {
-    border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    margin: 40px;
-    display: flex;
-    width: auto;
-
-}
-/*card's principais*/
-.card1 {
-    border-left:25px solid  #301E67;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 20px;
-    display: flex;
+    padding-left: 30px;
     text-decoration: none;
-    color: black;
+    list-style: none;
+    padding-left: 434px;
 }
-/*comentarios*/
-#comentarius1 {
-    width: 60%;
+li:hover{
+     background-color: rgb(218, 218, 218);
+        border-radius: 30px;
 }
-#sinopse{
-    display: flex;
-    padding: 10px;
-    font-family: 'Franklin Gothic Demi';
+#titulowhere
+#generos{
+    padding-left: 200px;
 }
-#review{
-    display: flex;
+#movieinfo{
+    justify-content: center;
 }
-.pfp{
-    width: 64px;
-    height: 64px;
-    padding-right: 10px;
-}
-/*img filmes*/
-#filmes {
-    height: 500px;
-    width: 350px
-}
-/*seção dos textos*/
-#seçaotxt {
-    text-align:left;
-    text-decoration: none;
-    color: black;
-}
-/*seção das notas*/
-#nota {
+#info{
     display: flex;
     justify-content: center;
-
 }
-/*notas*/
-h4 {
-    margin-left: 20px;
+#capa{
+    width: 265px;
+    height: 340px;
+    margin: 0%;
 }
-#link {
-    text-decoration: none;
-    color: black;
+#paizao{
+    justify-content: center;
+}
+#onde{
+    display:flex;
+    width: 3px;
+    height: 2px;
+    margin-left: 38%;
+}
+.ondeass {
+    border: 2px solid #301E67;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+li {
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
+}
+#where{
+    text-align: center;
+    justify-content: center;
 }
