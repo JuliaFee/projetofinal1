@@ -29,6 +29,6 @@ ul{
 }
 li:hover{
     background-color: rgb(54, 54, 54);
-   float: inline-end;
+    border-radius: 30px;
 
 }
