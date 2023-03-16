@@ -2,8 +2,8 @@ body{
     font-family: 'Franklin Gothic Book';
     margin: 0;
     align-items: center;
-    background-color: black;
-    color:aliceblue;
+    background-color: white;
+    
 }
 /*body*/
 #card2{
@@ -60,6 +60,7 @@ body{
 .slider {
     position: absolute;
     width: 100%;
+    border-radius: 10px;
 }
 .countainer-image {
 position: relative;
@@ -79,4 +80,7 @@ width: 700px;
 #prev-button img, #next-button img{
     width: 100%;
     height: 100%;
+}
+#prev-button {
+    transform: rotate(180deg);
 }
