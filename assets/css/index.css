@@ -2,8 +2,8 @@ body{
     font-family: 'Franklin Gothic Book';
     margin: 0;
     align-items: center;
-    background-color: white;
-    
+    background-color: rgb(33, 33, 33);
+    color:aliceblue;
 }
 /*body*/
 #card2{
@@ -15,7 +15,6 @@ body{
 }
 /*carrossel*/
 .galery {
-    background-color: whitesmoke;
     overflow: hidden;
 }
 /*carrossel fotos*/
@@ -43,6 +42,7 @@ body{
 /*main*/
 .main {
     display: flex;
+    align-items: center;
 }
 /*veja img*/
 .vejaimg {
@@ -75,12 +75,30 @@ justify-content: center;
 width: 700px;
 }
 #prev-button, #next-button {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border: none;
-    background-color: transparent;
+    background-color: white;
     cursor: pointer;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+#card3{
+    border-left: 5px solid rgb(128, 55, 128);
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
 
+}
+hr{
+    opacity:0.2;
+    outline:none;
+    width: 1000px;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 0px;
 }
 #prev-button img, #next-button img{
     width: 100%;
