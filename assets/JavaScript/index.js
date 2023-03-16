@@ -34,3 +34,10 @@ function prevSlider() {
 
 btnNext.addEventListener('click', () => console.log('clicado'))
 btnPrev.addEventListener('click', () => console.log('clicado'))
+
+
+console.log(slider)
+
+
+currentSlide = currentSlide + 1
+currentSlide = currentSlide - 1
