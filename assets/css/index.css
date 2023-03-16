@@ -155,7 +155,6 @@ section .card .image img{
     align-items: center;
     justify-content: center;
     background-color: rgb(33, 33, 33);
-    padding-left: 30px;
 }
 .card .media-icons {
     position: absolute;
