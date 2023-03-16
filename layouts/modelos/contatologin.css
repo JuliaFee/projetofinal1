@@ -30,6 +30,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
     background-color: rgb(33, 33, 33);
+    text-decoration: none;
 }
 
 img {
