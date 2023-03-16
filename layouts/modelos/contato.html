@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato</title>
+		<link rel="stylesheet" href="../modelos/contato.css">
+        <script src="../../assets/JavaScript/sweetalert.min.js" defer></script>
+	</head>
+	<body>
+		
+			<div class="card">
+			<div class="card__inner">
+				<div class="card__face card__face--front">
+				<div class="signin">
+					<h2>Login</h2>
+					<div class="form">
+					<input type="text" placeholder="Usuário" required>
+					<input type="password" placeholder="Senha" required>
+			</div>
+				<button onclick="signin()">Entrar</button>
+			<div class="member">
+				Ainda não tem uma conta? 
+					<a class="flip">Criar agora</a>
+			</div>
+		</div>
+	</div>
+
+				<div class="card__face card__face--back">
+				<div class="signup">
+					<h2>Seja membro</h2>
+					<div class="form">
+					<input type="text" placeholder="Usuário" required>
+					<input type="email" placeholder="Email" required>
+					<input type="password" placeholder="Senha" required>
+					<input type="password" placeholder="Repetir Senha" required>
+			</div>
+					<button onclick="signup()">Criar conta</button>
+					<div class="member">
+					Já tem uma conta? 
+					<a class="flip">Entrar agora</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+					<script src="scripts/sweetalert.min.js"></script>
+					<script src="script.js"></script>
+	</body>
+</html>
