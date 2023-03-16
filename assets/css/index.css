@@ -58,11 +58,13 @@ body{
     gap: 1rem;
 }
 .slider {
-    width: 250px;
-    height: 155px;
+    position: absolute;
+    width: 100%;
 }
 .countainer-image {
 position: relative;
 display: flex;
 align-items: center;
+justify-content: center;
+width: 700px;
 }
