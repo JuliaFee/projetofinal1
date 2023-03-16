@@ -136,6 +136,10 @@ section .card .image img{
     flex-direction: column;
     align-items: center;
 }
+.card::before{
+    content: "";
+    position: absolute;
+}
 .countainer{
     height: 100vh;
     display: flex;
