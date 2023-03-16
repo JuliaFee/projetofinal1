@@ -32,8 +32,8 @@ function prevSlider() {
     showSlider()
 }
 
-btnNext.addEventListener('click', () => console.log('clicado'))
-btnPrev.addEventListener('click', () => console.log('clicado'))
+btnNext.addEventListener('click', nextSlider)
+btnPrev.addEventListener('click', prevSlider)
 
 
 console.log(slider)
