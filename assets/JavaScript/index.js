@@ -37,3 +37,4 @@ btnPrev.addEventListener('click', prevSlider)
 
 
 console.log(slider)
+
