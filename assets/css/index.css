@@ -144,17 +144,18 @@ section .card .image img{
 .card::before{
     content: "";
     position: absolute;
-    height: 55%;
+    height: 45%;
     width: 100%;
     background-color: #B6EADA;
     border-radius: 20px 20px 0 0;
 }
 .countainer{
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(33, 33, 33);
+    padding-left: 30px;
 }
 .card .media-icons {
     position: absolute;
@@ -219,4 +220,5 @@ section .card .image img{
 }
 .content{
     display: flex;
+
 }
