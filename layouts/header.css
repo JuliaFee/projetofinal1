@@ -19,16 +19,13 @@ a:hover{
 }
 ul{
     display: flex;
+    text-align: center;
 }
-#categorias{
-    margin: 20px;
+.lista{
+    margin-right: 20px;
+    
 }
-#menu{
-    margin: 20px;
-}
-#filmes{
-    margin: 20px;
-}
-#series{
-    margin: 20px;
+
+nav {
+    text-align: center;
 }
