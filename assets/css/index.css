@@ -205,4 +205,15 @@ section .card .image img{
 .card .button button{
     background:#B6EADA ;
     outline: none;
+    border: none;
+    color: black;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.button button:hover{
+    background: #5B8FB9;
+
 }
