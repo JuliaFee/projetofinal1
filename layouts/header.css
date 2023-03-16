@@ -3,8 +3,8 @@ body{
 
 }
 #logo{
-    width: 64px;
-    height: 64px;
+    width: 90px;
+    height: 90px;
 }
 #menu{
     text-decoration: none;
@@ -28,6 +28,7 @@ ul{
 .lista{
     margin-right: 30px;
     text-decoration: none;
+    padding-bottom: 70px;
 }
 li:hover{
     background-color: rgb(54, 54, 54);
@@ -64,6 +65,7 @@ dropdown {
     font-size: 20px;
     text-decoration: none;
     list-style-type: none;
+    padding-bottom: 70px;
     
   }
   #quack:hover{
@@ -72,3 +74,7 @@ dropdown {
     border: 30px;
     text-align: center;
   }
+.login{
+    margin: 30px;
+    padding-bottom: 70px;
+}
