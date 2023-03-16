@@ -76,3 +76,7 @@ width: 700px;
     cursor: pointer;
 
 }
+#prev-button img, #next-button img{
+    width: 100%;
+    height: 100%;
+}
