@@ -68,3 +68,10 @@ align-items: center;
 justify-content: center;
 width: 700px;
 }
+#prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+
+}
