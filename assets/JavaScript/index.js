@@ -19,7 +19,7 @@ function nextSlider() {
     } else {
         currentSlide++
     }
-    showSlider
+    showSlider()
 }
 
 function prevSlider() {
@@ -29,7 +29,7 @@ function prevSlider() {
     } else {
         currentSlide--
     }
-    showSlider
+    showSlider()
 }
 
 btnNext.addEventListener('click', () => console.log('clicado'))
