@@ -12,4 +12,12 @@ function showSlider() {
     slider[currentSlide].classList.add('on')
 }
 
+function nextSlider() {
+    hideSlider ()
+    if(currentSlide === slider.length -1) {
+        
+    }
+}
+
 btnNext.addEventListener('click', () => console.log('clicado'))
+btnPrev.addEventListener('click', () => console.log('clicado'))
