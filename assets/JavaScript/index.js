@@ -14,9 +14,22 @@ function showSlider() {
 
 function nextSlider() {
     hideSlider ()
-    if(currentSlide === slider.length -1) {
-        
+    if(currentSlide ===  slider.length -1) {
+        currentSlide = 0
+    } else {
+        currentSlide++
     }
+    showSlider
+}
+
+function prevSlider() {
+    hideSlider ()
+    if(currentSlide === 0) {
+        currentSlide = slider.length -1
+    } else {
+        currentSlide--
+    }
+    showSlider
 }
 
 btnNext.addEventListener('click', () => console.log('clicado'))
