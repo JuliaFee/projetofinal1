@@ -46,6 +46,9 @@ li:hover{
     display: flex;
     width: auto;
 }
+#generos ul{
+ margin-left: 250px;
+}
 #generos{
     text-decoration: none;
     color:#ffffff;
