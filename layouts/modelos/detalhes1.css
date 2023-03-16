@@ -1,6 +1,6 @@
 body{
     font-family: 'dubai medium';
-    background-color: rgb(33, 33, 33);
+    background-image: linear-gradient(#306e6a,black, black);
     color:aliceblue
 }
 ul{
@@ -45,6 +45,9 @@ li:hover{
     padding-right: 30px;
     display: flex;
     width: auto;
+}
+#generos ul{
+ margin-left: 250px;
 }
 #generos{
     text-decoration: none;
