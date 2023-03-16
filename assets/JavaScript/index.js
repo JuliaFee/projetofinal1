@@ -37,7 +37,3 @@ btnPrev.addEventListener('click', prevSlider)
 
 
 console.log(slider)
-
-
-currentSlide = currentSlide + 1
-currentSlide = currentSlide - 1
