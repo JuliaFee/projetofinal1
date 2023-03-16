@@ -168,7 +168,13 @@ section .card .image img{
     opacity: 0.6 ;
     color: white;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .card .media-icons i:hover{
     opacity: 1;
+}
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
