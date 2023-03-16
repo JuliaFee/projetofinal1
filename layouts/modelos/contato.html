@@ -4,18 +4,20 @@
 		<meta charset="UTF-8">
 		<title>Contato</title>
 		<link rel="stylesheet" href="../modelos/contato.css">
-        <script src="../../assets/JavaScript/sweetalert.min.js" defer></script>
 	</head>
 	<body>
-		
+		<iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" margin="0px"></iframe>
 			<div class="card">
 			<div class="card__inner">
 				<div class="card__face card__face--front">
 				<div class="signin">
-					<h2>Login</h2>
+					<form action="../../layouts/modelos/contatologin.html"></form>
+					<h2>Registrar</h2>
 					<div class="form">
+					<input type="email" placeholder="Email" required>
 					<input type="text" placeholder="Usuário" required>
 					<input type="password" placeholder="Senha" required>
+					<input type="password" placeholder="Confirme sua senha" required>
 			</div>
 				<button onclick="signin()">Entrar</button>
 			<div class="member">
@@ -43,7 +45,6 @@
 		</div>
 	</div>
 </div>
-					<script src="scripts/sweetalert.min.js"></script>
-					<script src="script.js"></script>
+                 <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
 	</body>
 </html>
