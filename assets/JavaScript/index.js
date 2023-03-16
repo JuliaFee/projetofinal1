@@ -11,3 +11,5 @@ function hideSlider() {
 function showSlider() {
     slider[currentSlide].classList.add('on')
 }
+
+btnNext.addEventListener('click', () => console.log('clicado'))
