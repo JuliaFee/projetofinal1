@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <!--pagina inicial-->
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title>Vexx Mídia</title>
+    <title>Vexx Television</title>
+    <link rel="icon" href="./assets/images/logotitico.png">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/animacao.css">
 </head>
+
 <body>
-    <article>
-        <section>
-            <p>
-                <!--carrossel de noticias-->
-            </p>
+    <iframe href="./layouts/header.html" frameborder="0" scrolling="no"></iframe>
+
+    <main class="main">
+        <section class="galery">
+            <div class="fotos">
+                <a href="layouts/modelos/detalhes1.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/placeholder2.png" alt="placeholder2">
+                </a>
+                <a href="layouts/modelos/enem.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/enem-2018-logo1.jpg" alt="enem">
+                </a>
+                <a href="layouts/modelos/filmes.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/placeholder2.png" alt="placeholder2">
+                </a>
+                <a href="layouts/modelos/contato.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/placeholder2.png" alt="placeholder2">
+                </a>
+            </div>
         </section>
-    </article>
+        <aside id="card2">
+            <h1>noticia 3</h1>
+            <p class="materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus dolorum? Enim
+                temporibus
+                voluptatum esse recusandae, impedit distinctio. Voluptate laudantium, in illum provident unde quae
+                debitis suscipit totam repudiandae soluta!
+            </p>
+            <h1>noticia 2</h1>
+            <p class="materia">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus dolorum? Enim temporibus
+                voluptatum esse recusandae, impedit distinctio. Voluptate laudantium, in illum provident unde quae
+                debitis suscipit totam repudiandae soluta!
+            </p>
+            <h1>noticia 1</h1>
+            <p class="materia">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus dolorum? Enim temporibus
+                voluptatum esse recusandae, impedit distinctio. Voluptate laudantium, in illum provident unde quae
+                debitis suscipit totam repudiandae soluta!
+            </p>
+        </aside>
+    </main>
+    <section>
+        <h2>Favoritos dos Fãns</h2>
+        <!--slider-->
+        <div class="countainer-slide">
+            <!--botão de prev-->
+            <button id="prev-button"><img src="assets/images/arrow.png" alt="prev-button"></button>
+            <div class="countainer-image">
+                <img src="assets/images/placeholder2.png" alt="placeholder2" class="slider on">
+                <img src="assets/images/placeholder2.png" alt="placeholder2" class="slider">
+            </div>
+            <button id="next-button"> <img src="assets/images/arrow.png" alt="next-button"></button>
+        </div>
+    </section>
+    <iframe href="./layouts/footer.html" frameborder="0" scrolling="no"></iframe>
 </body>
+
 </html>

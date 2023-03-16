@@ -20,7 +20,7 @@ button:hover{
 form{
     display:flex;
     flex-direction: column;
-    width: 15%;
+    width: 10%;
     margin: auto; 
     margin-bottom: 50px;
 }
