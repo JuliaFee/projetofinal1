@@ -1,23 +1,30 @@
 body{
-    font-family: 'dubai medium'
+    font-family: 'dubai medium';
+    background-color: rgb(33, 33, 33);
+    color:aliceblue
 }
 ul{
     display: flex;
-    padding-left: 30px;
     text-decoration: none;
     list-style: none;
-    padding-left: 434px;
 }
 li:hover{
-     background-color: rgb(218, 218, 218);
+     background-color: rgb(54, 54, 54);
         border-radius: 30px;
 }
-#titulowhere
-#generos{
-    padding-left: 200px;
-}
-#movieinfo{
+#filmeinfo{
+    color:aliceblue;
     justify-content: center;
+    border: 2px solid;
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+    margin: 40px;
+    padding-right: 30px;
+    display: flex;
+    width: auto;
+}
+.texto2{
+    padding: 10px;
 }
 #info{
     display: flex;
@@ -28,17 +35,23 @@ li:hover{
     height: 340px;
     margin: 0%;
 }
-#paizao{
+.caixa{
+    color:aliceblue;
     justify-content: center;
+    border: 2px solid;
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+    margin: 40px;
+    padding-right: 30px;
+    display: flex;
+    width: auto;
 }
-#onde{
-    display:flex;
-    width: 3px;
-    height: 2px;
-    margin-left: 38%;
+#generos{
+    text-decoration: none;
+    color:#ffffff;
 }
 .ondeass {
-    border: 2px solid #301E67;
+    border: 2px solid #ffffff;
     border-radius: 100%;
     width: 45px;
     height: 45px;
@@ -51,4 +64,24 @@ li {
 #where{
     text-align: center;
     justify-content: center;
+}
+#channels{
+    justify-content: center;
+}
+.comentario{
+    display: flex;
+    margin: 10px;
+}
+.nomecomentario{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#pfp{
+    width: 5%;
+    height: 5%;
+}
+hr{
+    opacity: 0.2;
+    outline: none;
+    width: 1000px;
 }
