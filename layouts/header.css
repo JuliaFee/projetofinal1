@@ -57,6 +57,7 @@ dropdown {
   #filmes{
     color: rgb(6, 3, 3);
     text-decoration: none;
+    height: 20px;
   }
   #quack{
     color: rgb(255, 255, 255);
