@@ -143,10 +143,17 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
 cursor: pointer;
 z-index: 9;
 }
+.pre-btn img, .nxt-btn img{
+    width: 70px;
+    opacity: 0.4;
+}
 .pre-btn{
     left: 0;
     transform: rotate(180deg);
 }
 .nxt-btn{
     right: 0;
+}
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 1;
 }
