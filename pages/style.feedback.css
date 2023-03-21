@@ -27,3 +27,10 @@ body{
 label{
     font-family: sans-serif;
 }
+footer{
+    margin: 0%;
+}
+#header{
+    width="100%" ;
+    margin="0px";
+}
