@@ -88,3 +88,6 @@ hr{
     outline: none;
     width: 1000px;
 }
+#coiso{
+    display: flex;
+}
