@@ -87,11 +87,11 @@ width: 1250px;
     cursor: pointer;
     opacity: 0.2;
     border-radius: 10px;
+    display: flex;
     
 }
 #prev-button{
- position: relative;
-    z-index: 100;
+
 }
 #card3{
     border-left: 5px solid rgb(128, 55, 128);
