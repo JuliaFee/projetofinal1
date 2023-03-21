@@ -24,4 +24,6 @@ body{
     padding-top: 10px;
     margin-top: 20px;
 }
-
+label{
+    font-family: sans-serif;
+}
