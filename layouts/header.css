@@ -1,7 +1,9 @@
+/* Body */
 body{
   margin: 0;
   font-family: 'dubai medium';
 }
+/* Header */
 header{
   background-color: black;
   color: #fff;
@@ -10,6 +12,7 @@ header{
   width: 100%;
   position: fixed;
 }
+/* Countainer Logo */
 .container{
   width: 90%;
   max-width: 1200px;
@@ -18,30 +21,62 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+/* Logo */
 #logo{
   width: 128px;
   height: 128px;
 }
-nav ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+/* Style do button Dropdown*/
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
-nav li{
-  margin: 0 10px;
+
+/* div do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
-nav a{
-  color: #fff;
+
+/* Conteudo do dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
+  display: block;
+  z-index: 100;
 }
-nav a:hover{
-  color: #07b5ff;
-  background-color: rgb(30, 30, 30);
-  border-radius: 5px;
+
+/* Hover da lista do dropdown */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Mostra o Menu do dropdwon */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-nav a:active{
-  color: #36abf4
+
+/* Hover do Dropdown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(56, 53, 53);
+  
+}
+/* Hover do Dropdown */
+.dropbtn:hover {
+  background-color: rgb(56, 53, 53);
 }
