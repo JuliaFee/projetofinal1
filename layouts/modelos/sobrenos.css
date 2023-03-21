@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 #titulo{
@@ -55,7 +55,7 @@ section .card .image img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(0, 0, 0);
 }
 .card .media-icons {
     position: absolute;
