@@ -89,5 +89,5 @@ hr{
     width: 1000px;
 }
 #coiso{
-    flex-direction: column;
+    display: flex;
 }
