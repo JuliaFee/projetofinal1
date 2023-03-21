@@ -8,15 +8,12 @@
     <link rel="icon" href="./assets/images/logotitico.png">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/animacao.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./assets/JavaScript/index.js" defer></script>
 </head>
 
 <body>
-    <iframe href="layouts/header.html" frameborder="0" scrolling="no"></iframe>
-
+    <iframe href="./layouts/header.html" frameborder="0" scrolling="no"></iframe>
+    <!--slider carrosel destaques-->
     <main class="main">
         <section class="galery">
             <div class="fotos">
@@ -34,46 +31,210 @@
                 </a>
             </div>
         </section>
-        <aside id="card2">
-            <h2>noticia 3</h2>
-            <p class="materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus dolorum? Enim
-                temporibus
-                voluptatum esse recusandae, impedit distinctio. Voluptate laudantium, in illum provident unde quae
-                debitis suscipit totam repudiandae soluta!
-            </p>
-            <h2>noticia 2</h2>
-            <p class="materia">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus dolorum? Enim temporibus
-                voluptatum esse recusandae, impedit distinctio. Voluptate laudantium, in illum provident unde quae
-                debitis suscipit totam repudiandae soluta!
-            </p>
-            <h2>noticia 1</h2>
-            <p class="materia">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus dolorum? Enim temporibus
-                voluptatum esse recusandae, impedit distinctio. Voluptate laudantium, in illum provident unde quae
-                debitis suscipit totam repudiandae soluta!
-            </p>
+        <!--destaques aside-->
+        <aside class="asaide">
+            <h1>EM ALTA</h1>
+            <a href="#" class="card2">
+                <div class="destaque1">
+                    <img class="imagemdestaque" src="./layouts/modelos/imagensmodelo/thelastofus.jpg">
+                    <div class="conteudodestaque">
+                        <h2>the last of us</h2>
+                        <p class="materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus
+                            dolorum? Enim
+                            temporibus
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card2">
+                <div class="destaque1">
+                    <img class="imagemdestaque" src="./layouts/modelos/imagensmodelo/breakingbad.jpg">
+                    <div class="conteudodestaque">
+                        <h2>breaking bad</h2>
+                        <p class="materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus
+                            dolorum? Enim
+                            temporibus
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card2">
+                <div class="destaque1">
+                    <img class="imagemdestaque" src="./layouts/modelos/imagensmodelo/euphoria.jpg">
+                    <div class="conteudodestaque">
+                        <h2>euphoria</h2>
+                        <p class="materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, temporibus
+                            dolorum? Enim
+                            temporibus
+                        </p>
+                    </div>
+                </div>
+            </a>
         </aside>
     </main>
     <hr>
-    <!--slider-->
+    <!--slider de destaques-->
     <section class="cardm">
         <h2 class="titulo-cardm">destaques</h2>
-        <button class="pre-btn"><img src="./assets/images/arrow.png"></button>
-        <button class="nex-btn"><img src="./assets/images/arrow.png"></button>
+        <button class="pre-btn"><img src="./assets/images/arrow.png" id="img-btn"></button>
+        <button class="nxt-btn"><img src="./assets/images/arrow.png" id="img-btn"></button>
         <div class="cardm-container">
             <div class="cardm-card">
                 <div class="cardm-image">
                     <img class="poster-thumb" src="./assets/images/bap.jpg">
                 </div>
-                <div class="cardm.info">
-                    <h2 class="cardm.nome">nome</h2>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+            <div class="cardm-card">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">nome</h2>
                     <span class="nota">9/10</span>
                 </div>
             </div>
         </div>
     </section>
-<!--footer-->
+    <!--footer-->
     <iframe href="./layouts/footer.html" frameborder="0" scrolling="no"></iframe>
 </body>
 
