@@ -88,3 +88,7 @@ hr{
     outline: none;
     width: 1000px;
 }
+iframe{
+    position: relative;
+    z-index: 100;
+}
