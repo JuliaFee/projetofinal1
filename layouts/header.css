@@ -7,7 +7,7 @@ body{
 header{
   background-color: black;
   color: #fff;
-  padding: 20px 0;
+  padding: 0;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -21,6 +21,31 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+/*nav*/
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li{
+  margin: 0 10px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+nav a:hover{
+  color: #07b5ff;
+  background-color: rgb(30, 30, 30);
+  border-radius: 5px;
+}
+nav a:active{
+  color: #36abf4
+}
+
 /* Logo */
 #logo{
   width: 128px;
@@ -30,12 +55,17 @@ header{
 .dropbtn {
   background-color: black;
   color: white;
-  padding: 16px;
   padding-left: 50px;
   padding-right: 50px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  font-family: 'dubai medium';
+}
+.dropbtn:hover{
+  color: #07b5ff;
+  background-color: rgb(30, 30, 30);
+  border-radius: 5px;
 }
 
 /* div do dropdown */
@@ -64,16 +94,20 @@ header{
 }
 
 /* Hover da lista do dropdown */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #bababa;
+}
 
 /* Mostra o Menu do dropdwon */
 .dropdown:hover .dropdown-content {
   display: block;
+  
 }
 
 /* Hover do Dropdown */
 .dropdown:hover .dropbtn {
   background-color: rgb(56, 53, 53);
+  border-radius: 5px;
   
 }
 /* Hover do Dropdown */
