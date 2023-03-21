@@ -10,13 +10,23 @@ body{
     background-color: rgb(33, 33, 33);
     color:aliceblue;
 }
+hr{
+    opacity: 0.2;
+    outline: none;
+    width: 1000px;
+    text-align: center;
+}
 /*body*/
-#card2{
+.card2{
     border-left: 5px solid rgb(128, 55, 128);
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
+}
+.asaide{
+    flex-direction: column;
+    display: flex;
 }
 /*carrossel*/
 .galery {
