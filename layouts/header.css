@@ -1,7 +1,9 @@
+/* Body */
 body{
   margin: 0;
   font-family: 'dubai medium';
 }
+/* Header */
 header{
   background-color: black;
   color: #fff;
@@ -10,6 +12,7 @@ header{
   width: 100%;
   position: fixed;
 }
+/* Countainer Logo */
 .container{
   width: 90%;
   max-width: 1200px;
@@ -18,6 +21,7 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+/* Logo */
 #logo{
   width: 128px;
   height: 128px;
@@ -71,6 +75,7 @@ header{
   background-color: rgb(56, 53, 53);
   
 }
+/* Hover do Dropdown */
 .dropbtn:hover {
   background-color: rgb(56, 53, 53);
 }
