@@ -22,26 +22,50 @@ header{
   width: 128px;
   height: 128px;
 }
-nav ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
-nav li{
-  margin: 0 10px;
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
-nav a{
-  color: #fff;
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
+  display: block;
 }
-nav a:hover{
-  color: #07b5ff;
-  background-color: rgb(30, 30, 30);
-  border-radius: 5px;
+
+/* Hover da lista do dropdown */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Mostra o Menu do dropdwon */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-nav a:active{
-  color: #36abf4
+
+/* Hover do Dropdown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(56, 53, 53);
+  
 }
