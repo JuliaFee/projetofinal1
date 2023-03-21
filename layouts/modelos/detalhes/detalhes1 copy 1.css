@@ -1,6 +1,6 @@
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(#306e6a,black, black);
+    background-image: linear-gradient(black,#306e6a,black, black);
     color:aliceblue
 }
 ul{
@@ -91,4 +91,5 @@ hr{
 iframe{
     position: relative;
     z-index: 100;
+    
 }
