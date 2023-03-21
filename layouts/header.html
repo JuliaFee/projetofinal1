@@ -6,20 +6,36 @@
     <title>header</title>
     <link href="../layouts/header.css" rel="stylesheet">
 </head>
-
+<!-- Body -->
 <body>
+    <!-- Header -->
     <header>
+        <!-- Div do Header -->
         <div class="container">
-            <a href="../index.html" class="logo">
-                <img id="logo" src="../assets/images/vexxtvlogo.png" alt="logo do site">
+            <!-- Logo -->
+            <a href="./../index.html" class="logo">
+                <img id="logo" src="../assets/images/vexxtvlogo.png" alt="logo do site" arget="_parent">
             </a>
+            <!-- Navegação -->
             <nav>
-                <ul class="dropdown">
-                    <li><a class="dropbtn" href="#" target="">home</a></li>
-                    <li><a href="#">menu</a></li>
-                    <li><a href="#">sobre nós</a></li>
+                <!-- DropDown Menu -->
+                <ul>
+                    <div class="dropdown">
+                        <button class="dropbtn">MENU</button>
+                        <div class="dropdown-content">
+                          <a href="./../index.html">Home</a>
+                          <a href="modelos/sobrenos.html" target="_parent">Filmes</a>
+                          <a href="modelos/contato.html" arget="_parent">Séries</a>
+                          <a href="modelos/feedback.html" arget="_parent">Oscar</a>
+                          <a href="modelos/feedback.html" arget="_parent">Dicas Vestibular</a>
+                        </div>
+                      </div>
+                    <li><a href="#" target="">página inicial</a></li>
+                    <li><a href="#">sobre nos</a></li>
+                    <li><a href="#">serviços</a></li>
                     <li><a href="#">contato</a></li>
                 </ul>
+                  <!-- Login/Signup -->
             </nav>
         </div>
     </header>
