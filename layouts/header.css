@@ -2,6 +2,7 @@ body {
   background-color: black;
   margin: 0%;
   text-decoration: none;
+  font-family: dubai medium;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
   color: white;
   text-decoration: none;
   display: block;
-  font-family: 'berlin sans fb';
+  font-family: 'dubai medium';
   text-align: center;
 }
 
