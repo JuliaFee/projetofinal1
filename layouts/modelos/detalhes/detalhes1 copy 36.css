@@ -1,6 +1,6 @@
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(#306e6a,black, black);
+    background-image: linear-gradient(#6b3c61,black, black);
     color:aliceblue
 }
 ul{
@@ -8,7 +8,7 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-li:hover{
+li{
      background-color: rgb(54, 54, 54);
         border-radius: 30px;
 }
@@ -70,6 +70,7 @@ li {
 }
 #channels{
     justify-content: center;
+    padding: 0;
 }
 .comentario{
     display: flex;
@@ -87,4 +88,7 @@ hr{
     opacity: 0.2;
     outline: none;
     width: 1000px;
+}
+#titulo{
+    font-size: 400%;
 }
