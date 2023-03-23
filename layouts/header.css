@@ -50,3 +50,14 @@ nav a:active{
   width: 128px;
   height: 128px;
 }
+/* Style do button Dropdown*/
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'dubai medium';
+}
