@@ -92,3 +92,7 @@ nav a:active{
 .dropdown-content a:hover {
   background-color: #bababa;
 }
+/* Mostra o Menu do dropdwon */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
