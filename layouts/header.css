@@ -31,3 +31,14 @@ nav ul{
 nav li{
   margin: 0 10px;
 }
+nav a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+nav a:hover{
+  color: #07b5ff;
+  background-color: rgb(30, 30, 30);
+  border-radius: 5px;
+}
