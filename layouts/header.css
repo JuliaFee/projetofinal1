@@ -46,10 +46,14 @@ li {
 }
 
 li:hover {
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
 }
 
 #menu {
   margin: 0;
+}
+#off{
+  text-decoration: none;
+  color: white;
 }
