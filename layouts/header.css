@@ -1,0 +1,43 @@
+button[name="drop"]{
+  border: none;
+  cursor: pointer;
+  background-color: #FF7F40;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.drop-content{
+  display: none;
+  background-color: #E4A87A;
+}
+
+.drop-content a{
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-drop:hover .drop-content{
+  display: block;
+}
+
+.menu-drop:hover button[name="drop"]{
+  background-color: #E2703D
+}
+
+.drop-content a:hover{
+  background-color: #C9936F;
+}
+
+.drop-content{
+  display: none;
+  background-color: #E4A87A;
+      
+  position: absolute; 
+}
+
+.menu-drop{
+  position: relative;
+}
