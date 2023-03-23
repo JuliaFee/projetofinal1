@@ -6,3 +6,17 @@ header {
   text-align: center;
   background-color: rgb(240, 185, 83);
 }
+.anav {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'berlin sans fb';
+  text-align: center;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-top: 5px;
+  text-align: center;
+}
