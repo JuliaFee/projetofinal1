@@ -1,82 +1,60 @@
-/* Body */
-body{
-  margin: 0;
-  font-family: 'dubai medium';
-}
-/* Header */
-header{
+body {
   background-color: black;
-  color: #fff;
-  padding: 20px 0;
-  height: 100%;
-  width: 100%;
-  position: fixed;
+  margin: 0%;
+  text-decoration: none;
+  font-family: dubai medium;
 }
-/* Countainer Logo */
-.container{
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+header {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
 }
-/* Logo */
-#logo{
-  width: 128px;
-  height: 128px;
-}
-/* Style do button Dropdown*/
-.dropbtn {
-  background-color: black;
+
+.anav {
   color: white;
-  padding: 16px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-/* div do dropdown */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Conteudo do dropdown */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links dentro do dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
-  z-index: 100;
+  font-family: 'dubai medium';
+  text-align: center;
 }
 
-/* Hover da lista do dropdown */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Mostra o Menu do dropdwon */
-.dropdown:hover .dropdown-content {
-  display: block;
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-top: 5px;
+  text-align: center;
 }
 
-/* Hover do Dropdown */
-.dropdown:hover .dropbtn {
-  background-color: rgb(56, 53, 53);
-  
+nav {
+  display: flex;
+  justify-content: center;
 }
-/* Hover do Dropdown */
-.dropbtn:hover {
-  background-color: rgb(56, 53, 53);
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0%;
+  text-decoration: none;
+}
+
+li {
+  margin-left: 50px;
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#menu {
+  margin: 0;
+}
+#off{
+  text-decoration: none;
+  color: white;
 }
