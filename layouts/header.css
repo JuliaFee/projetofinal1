@@ -20,3 +20,14 @@ header {
   margin-top: 5px;
   text-align: center;
 }
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 0%;
+}
