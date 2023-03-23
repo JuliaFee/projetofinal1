@@ -55,5 +55,14 @@ body{
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagemdestaque{
+    width: 12%;
+    height: 12%;
+    padding-right: 20px;
 }
