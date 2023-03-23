@@ -1,6 +1,6 @@
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(black,#48264b,black, black);
+    background-image: linear-gradient(#48264b,black, black);
     color:aliceblue
 }
 ul{
