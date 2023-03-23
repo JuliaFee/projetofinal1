@@ -75,3 +75,8 @@ hr{
     display: flex;
     align-items: center;
 }
+.imagemdestaque2{
+    width: 12%;
+    height: 12%;
+    padding-top: 20px;
+}
