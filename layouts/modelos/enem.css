@@ -5,16 +5,18 @@
 }
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(black,rgb(27, 27, 148),black, black);
+    background-image: linear-gradient(black,black, black);
     color:aliceblue
 }
 /*body*/
-#card2{
+.card2{
     border-left: 5px solid rgb(128, 55, 128);
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
+    text-decoration: none;
+    color: white;
 }
 /*carrossel*/
 .galery {
@@ -34,9 +36,9 @@ body{
 
 }
 /*aside*/
-#aside {
-    padding-left: 10px;
-    font-size: 20px;
+.asaide{
+    flex-direction: column;
+    display: flex;
 }
 /*veja*/
 .veja {
@@ -65,4 +67,11 @@ hr{
     width: 12%;
     height: 12%;
     padding-right: 20px;
+}
+.destaque1{
+    display: flex;
+}
+.main {
+    display: flex;
+    align-items: center;
 }
