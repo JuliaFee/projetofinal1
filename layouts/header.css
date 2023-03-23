@@ -101,3 +101,7 @@ nav a:active{
   background-color: rgb(56, 53, 53);
   border-radius: 5px;
 }
+/* Hover do Dropdown */
+.dropbtn:hover {
+  background-color: rgb(56, 53, 53);
+}
