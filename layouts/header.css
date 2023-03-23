@@ -88,3 +88,7 @@ nav a:active{
   display: block;
   z-index: 100;
 }
+/* Hover da lista do dropdown */
+.dropdown-content a:hover {
+  background-color: #bababa;
+}
