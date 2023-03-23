@@ -45,3 +45,8 @@ nav a:hover{
 nav a:active{
   color: #36abf4
 }
+/* Logo */
+#logo{
+  width: 128px;
+  height: 128px;
+}
