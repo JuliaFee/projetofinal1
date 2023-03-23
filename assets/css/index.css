@@ -9,6 +9,7 @@ body{
     align-items: center;
     background-color: rgb(33, 33, 33);
     color:aliceblue;
+    background-image: linear-gradient(#301E67, black, black, #301E67);
 }
 hr{
     opacity: 0.2;
@@ -62,6 +63,7 @@ hr{
 .main {
     display: flex;
     align-items: center;
+    padding: 60px;
 }
 /*veja img*/
 .vejaimg {
@@ -101,7 +103,7 @@ width: 1000px;
 }
 .titulo-cardm{
     padding: 0 10vw;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
@@ -120,6 +122,10 @@ width: 1000px;
     width: 250px;
     height: 450px;
     margin-right: 40px;
+    text-decoration: none;
+    color: #ffff;
+}
+a{
     text-decoration: none;
     color: #ffff;
 }
@@ -142,7 +148,6 @@ width: 1000px;
     padding-top: 10px;
 }
 .cardm-nome {
-    text-transform: uppercase;
     text-decoration: none;
     color: #ffff;
 }
@@ -184,5 +189,8 @@ z-index: 9;
 }
 .destaque1{
     display: flex;
+}
+h2{
+    padding-bottom: 10px;
 }
 
