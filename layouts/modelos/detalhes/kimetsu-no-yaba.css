@@ -1,9 +1,9 @@
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(#306e6a,black, black);
+    background-image: linear-gradient(#a20c0c,black, black);
     color:aliceblue;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
 ul{
     display: flex;
