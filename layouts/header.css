@@ -1,43 +1,71 @@
-body {
-  background-color: rgb(240, 185, 83);
-  margin: 0%;
-}
-header {
-  text-align: center;
-  background-color: rgb(240, 185, 83);
-}
-.anav {
-  color: white;
-  text-decoration: none;
-  display: block;
-  font-family: 'berlin sans fb';
-  text-align: center;
-}
 
-.logo {
-  width: 64px;
-  height: 64px;
-  margin-top: 5px;
-  text-align: center;
-}
-nav {
-  display: flex;
-  justify-content: center;
-}
 
-ul {
-  list-style: none;
+/* Body */
+body{
+  margin: 0;
+  font-family: 'dubai medium';
+}
+/* Header */
+header{
+  background-color: black;
+  color: #fff;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+/* Countainer Logo */
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-left: 0%;
 }
-li {
-  margin-left: 50px;
-  text-align: center;
+/*nav*/
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li{
+  margin: 0 10px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
   padding: 10px;
 }
+nav a:hover{
+  color: #07b5ff;
+  background-color: rgb(30, 30, 30);
+  border-radius: 5px;
+}
+nav a:active{
+  color: #36abf4
+}
 
-li:hover {
-  background-color: rgb(215, 122, 34);
+/* Logo */
+#logo{
+  width: 128px;
+  height: 128px;
+}
+/* Style do button Dropdown*/
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'dubai medium';
+}
+.dropbtn:hover{
+  color: #07b5ff;
+  background-color: rgb(30, 30, 30);
   border-radius: 5px;
 }
