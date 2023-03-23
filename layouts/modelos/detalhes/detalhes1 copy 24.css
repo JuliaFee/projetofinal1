@@ -1,6 +1,6 @@
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(#306e6a,black, black);
+    background-image: linear-gradient(#25cfc4,black, black);
     color:aliceblue;
     padding: 0;
     margin: 0;
@@ -21,7 +21,7 @@ li:hover{
     background-color: rgb(33, 33, 33);
     border-radius: 10px;
     margin: 40px;
-    padding-right: 30px;
+    padding-right: 50px;
     display: flex;
     width: auto;
 }
