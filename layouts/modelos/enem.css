@@ -24,7 +24,7 @@ body{
 }
 /*carrossel fotos*/
 .galery .fotos {
-    width: 500%;
+    width: 501%;
     animation-name: animacao;
     animation-duration: 20s;
     animation-iteration-count: infinite;
