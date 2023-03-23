@@ -45,7 +45,6 @@ nav a:hover{
 nav a:active{
   color: #36abf4
 }
-
 /* Logo */
 #logo{
   width: 128px;
@@ -67,13 +66,11 @@ nav a:active{
   background-color: rgb(30, 30, 30);
   border-radius: 5px;
 }
-
 /* div do dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 /* Conteudo do dropdown */
 .dropdown-content {
   display: none;
@@ -83,7 +80,6 @@ nav a:active{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 /* Links dentro do dropdown */
 .dropdown-content a {
   color: black;
@@ -92,23 +88,18 @@ nav a:active{
   display: block;
   z-index: 100;
 }
-
 /* Hover da lista do dropdown */
 .dropdown-content a:hover {
   background-color: #bababa;
 }
-
 /* Mostra o Menu do dropdwon */
 .dropdown:hover .dropdown-content {
   display: block;
-  
 }
-
 /* Hover do Dropdown */
 .dropdown:hover .dropbtn {
   background-color: rgb(56, 53, 53);
   border-radius: 5px;
-  
 }
 /* Hover do Dropdown */
 .dropbtn:hover {
