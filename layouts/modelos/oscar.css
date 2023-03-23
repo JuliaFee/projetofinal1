@@ -179,4 +179,8 @@ z-index: 9;
 .destaque1{
     display: flex;
 }
-
+#videoOscar{
+    padding-left: 25%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
