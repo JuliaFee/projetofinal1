@@ -1,60 +1,118 @@
+
+
+/* helpers/grid.css */
+
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 48em;
+}
+
+/* helpers/sticky.css */
+
+.sticky {
+  position: sticky;
+  will-change: transform;
+}
+
+.sticky--top {
+  top: 0;
+}
+
+/* layout/base.css */
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  min-block-size: 100vh;
+}
+
+/* layout/header.css */
+
+.header {
   background-color: black;
-  margin: 0%;
-  text-decoration: none;
-  font-family: dubai medium;
+  padding-block: 1em;
+  color: #7fa9cb;
 }
-
-header {
-  text-align: center;
-  background-color: rgb(0, 0, 0);
+.sub{
+  color: #7fa9cb;
+ border-radius: 40px;
 }
-
-.anav {
-  color: white;
-  text-decoration: none;
-  display: block;
-  font-family: 'dubai medium';
-  text-align: center;
+li:hover{
+  background-color: #301E67;
+  border-radius: 40px;
 }
-
-.logo {
+#logo{
   width: 64px;
   height: 64px;
-  margin-top: 5px;
-  text-align: center;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
+.header::after {
+  bottom: 0;
+  box-shadow: 0 0.0625em 0.5em #f2f3f3;
+  content: '';
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
 }
 
-ul {
+.header.is-active::after {
+  opacity: 1;
+}
+
+/* layout/main.css */
+
+.main {
+  padding-block: 6em;
+}
+
+/* modules/headline.css */
+
+h1 {
+  margin-block: 0 0.5em;
+}
+
+/* modules/navigation.css */
+
+.navigation__list {
   list-style: none;
-  display: flex;
-  align-items: center;
-  padding-left: 0%;
-  text-decoration: none;
-}
-
-li {
-  margin-left: 50px;
-  text-align: center;
-  padding: 10px;
-  list-style: none;
-  text-decoration: none;
-}
-
-li:hover {
-  background-color: rgb(0, 0, 0);
-  border-radius: 5px;
-}
-
-#menu {
   margin: 0;
+  padding: 0;
 }
-#off{
+
+.navigation__list--inline {
+  display: flex;
+  gap: 1.5em;
+}
+
+.navigation__link {
+  color: inherit;
+  display: block;
+  padding-inline: 1em;
   text-decoration: none;
-  color: white;
+}
+
+.navigation__link--is-active {
+  background-color: #000;
+  border-radius: 999em;
+  color: #fff;
+}
+
+/* modules/paragraph.css */
+
+p {
+  padding-block: 1.5em;
 }
