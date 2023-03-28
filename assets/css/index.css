@@ -9,7 +9,7 @@ body{
     align-items: center;
     background-color: rgb(33, 33, 33);
     color:aliceblue;
-    background: black;
+    background-image: linear-gradient(#301E67, black, black, black);
 }
 hr{
     opacity: 0.2;
@@ -40,18 +40,20 @@ hr{
     text-decoration: none;
     margin-bottom: 10px;
     padding: 20px;
+    color: #71698b;
   }
   .card2:hover {
     transform: translateY(-5px) scale(1.005) translateZ(0);
     transition: ease-in 0.3s;
     background-color: #201838;
   }
-  .card2:hover p {
-    color: var(--text-color-hover);
+  .card2:hover p h2{
+    transition: ease-in 0.3s;
+    color: aliceblue;
   }
   .card2:active {
     transform: scale(1) translateZ(0);
-    box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11);
 }
 .asaide{
     flex-direction: column;
@@ -60,13 +62,9 @@ hr{
 .destaque1{
     display: flex;
 }
-/*
-.destaque1:hover{
-    background-color: #8d6bf4;
-    transition: ease-in 2s;
-    --text-color-hover: white;
+.fotosdestaque{
+    width: 40%;
 }
-*/
 /*carrossel*/
 .galery {
     overflow: hidden;
@@ -219,8 +217,8 @@ z-index: 9;
     opacity: 1;
 }
 .imagemdestaque{
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     padding-right: 20px;
 }
 h2{
