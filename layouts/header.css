@@ -5,7 +5,7 @@
 body{
 font-family: arial, helvetica, sans-serif;
 font-size: 12px;
-background-color: #e70606;
+background-color: #000000;
 }
 
 
@@ -15,13 +15,15 @@ border:1px solid #c0c0c0;
 float: right;
 display: flex;
 align-items: center;
+background-color: #000000;
+
 }
 .menu li{
   position: relative;
   float: right;
   border-right:1px solid #c0c0c0;
   }
-  .menu li a{color:#333;
+  .menu li a{color:#ffffff;
      text-decoration:none; 
     padding:5px 25px; 
     display:block;
@@ -38,8 +40,9 @@ text-shadow:0px 0px 5px #fff;
   position:absolute;
   top:25px;
   left:0;
-  background-color:#fff;
+  background-color:#000000;
   display:none;
+
   }
   .menu li:hover ul, .menu li.over ul{display:block;
   }
@@ -52,6 +55,6 @@ text-shadow:0px 0px 5px #fff;
   padding-bottom: 100px;
 }
 #logo{
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
 }
