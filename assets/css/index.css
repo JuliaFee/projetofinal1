@@ -27,8 +27,8 @@ hr{
 /*body*/
 /*card destaques*/
 .card2{
-    width: 30%;
-    height: 30%;
+    width: 80%;
+    height: 50%;
     background: black;
     border-radius: 10px;
     overflow: hidden;
@@ -223,8 +223,8 @@ z-index: 9;
     opacity: 1;
 }
 .imagemdestaque{
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 50%;
     padding-right: 20px;
 }
 h2{
@@ -237,7 +237,7 @@ h2{
 .parte2 {
     display: flex;
     margin-top: 30px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 .imagemdestaque2{
     width: 50%;
@@ -253,4 +253,34 @@ h2{
     width: 60%;
     height: 60%;
     padding-right: 20px;
+}
+.card3{
+    width: 35%;
+    height: 50%;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #71698b;
+  }
+  .card3:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    transition: ease-in 0.3s;
+    background-color: #201838;
+  }
+  .card3:hover p h2{
+    transition: ease-in 0.3s;
+    color: aliceblue;
+  }
+  .card3:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11);
 }
