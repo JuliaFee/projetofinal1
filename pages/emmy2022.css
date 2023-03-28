@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Franklin Gothic Book';
+    font-family: 'dubai medium';
     margin: 0;
     align-items: center;
     background-color: rgb(33, 33, 33);
@@ -20,7 +20,7 @@ hr{
 }
 /*body*/
 .card2{
-    border-left: 5px solid rgb(128, 55, 128);
+    border: 5px #5B8FB9;
     border-radius: 10px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
