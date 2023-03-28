@@ -27,7 +27,7 @@ hr{
 /*body*/
 /*card destaques*/
 .card2{
-    width: 30%px;
+    width: 30%;
     height: 30%;
     background: black;
     border-radius: 10px;
@@ -234,6 +234,23 @@ h2{
     font-size: 15px;
 }
 /*index parte 2 oscar e emmy*/
-.cardoscar{
-    
+.parte2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.imagemdestaque2{
+    width: 50%;
+    height: 50%;
+    padding-right: 20px;
+}
+.imagemdestaque3{
+    width: 70%;
+    height: 70%;
+    padding-right: 20px;
+}
+.imagemdestaque4{
+    width: 60%;
+    height: 60%;
+    padding-right: 20px;
 }
