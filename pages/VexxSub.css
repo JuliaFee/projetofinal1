@@ -16,7 +16,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'dubai medium'
 }
 
 body {
@@ -24,6 +24,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
     background-color: rgb(33, 33, 33);
+    font-family: 'dubai medium'
 }
 
 h2 {
@@ -73,16 +74,18 @@ h1 {
     color: white;
 }
 .Seja{
-    font-size: larger;
-    padding-bottom: 10px;
+    font-size: 40px;
+    padding-bottom: 5px;
+
 }
 li {
-    padding-bottom: 8px;
+    padding-bottom: 12px;
 }
 button {
-    justify-content: center;
-    font-size: 16px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 8px;
     border: none;
     border-radius: 30px;
@@ -95,3 +98,13 @@ button {
       rgba(173, 83, 228, 1) 100%
     );
   }
+.signin{
+ text-align: center;
+}
+.separe{
+    padding-bottom: 60px;
+}
+.ima {
+    width: 15%;
+    text-align: center;
+}
