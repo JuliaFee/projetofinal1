@@ -33,7 +33,7 @@ h2 {
 }
 
 .card {
-	margin: 100px auto 0;
+	margin: 10px auto 0;
     margin-bottom: 10px;
 	width: 400px;
 	height: 400px;
@@ -107,5 +107,5 @@ button {
 }
 .ima {
     width: 15%;
-    text-align: center;
+    margin-left: 643px;
 }
