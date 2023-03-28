@@ -3,7 +3,7 @@ body{
   font-family:'dubai medium';
 }
 header{
-  background-color: black;
+  background-color: #03001C;
   color: #fff;
   padding: 20px 0;
   height: 100%;
@@ -38,11 +38,11 @@ nav a{
   padding: 10px;
 }
 nav a:hover{
-  color: #07b5ff;
+  color: #B6EADA;
   transition: ease-in 0.2s;
-  background-color: rgb(30, 30, 30);
-  border-radius: 5px;
+  background-color: #1d1a3e;
+  border-radius: 40px;
 }
 nav a:active{
-  color: #36abf4
+  color: #B6EADA;
 }
