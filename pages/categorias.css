@@ -1,108 +1,137 @@
 h1{
-text-align: center;
-padding: 0;
-font-size:40px;
-color: rgb(124, 227, 227);
+    font-size: 20px;
+    padding: 200px;
 }
-body{
- margin: 0; 
- padding: 0;
- background-color: black;
-}
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
-
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
 * {
-  margin:0;
-  padding:0;
-  list-style:none;
-  text-decoration:none;
-  box-sizing:border-box;
-}
-
-html, body{
-  width:100%;
-  height:100%;
-}
-
-
-body {
-  font-family: 'Josefin Slab', serif;
-  padding:40px;
-  background: #000;
-  overflow: hidden;
-}
-
-
-.wrapper {
-  transform-style: preserve-3d;
-  margin: 0 auto;
-  width:150px;
-  height:300px;
-  position: absolute;
-  top: 0;left: 0;right: 0;bottom: 0;
-  margin: auto;
-  
-}
-
-.wrapper:after {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: -1;
-  display: block;
-  content: '';
-  height: 22px;
-  width: 100%;
-  background: url('http://www.kikk.be/2015/files/templates/kikk2015/public/assets/images/floating-card-shadow.png') no-repeat;
-  background-size: 100%;
-}
-
-
-.bloc {
-  height: 100%;
-  width: 100%;
-  background: url(https://desktopography.net/wp-content/uploads/bfi_thumb/ALONE-34re7d3h27texnipm6f0u8.jpg) no-repeat center top;
-  position: relative;
-  
-}
-.geral{
-    display: flex;
-}
-
-.content {
-  transform: translateZ(80px) scale(1);
-  -webkit-transform: translateZ(80px) scale(1);
-  height:  310px;
-  width:160px;
-  position: absolute;
-  margin:auto;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  padding:20px;
-  color: #fff;
-  z-index: 3;
-  display: flex;
-}
-
-.content2 {
-  transform: translateZ(40px) scale(1);
-  -webkit-transform: translateZ(40px) scale(1);
-  background: #7723ff;
-  opacity: 0.4;
-  left: -80px;
+  margin: 0;
   padding: 0;
-  z-index: 2;
+  box-sizing: border-box;
+}
+.page-container {
+  width: 100%;
+  height: 100vh;
+  max-width:100vw;
+  max-height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
+      center;
+  background-size: cover;
+}
+.page-container .page {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.page-container .page .card-container {
+  height: 350px;
+  position: relative;
+}
+.card-container .card {
+  width: 18vw;
+  height: 40vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.8s ease-in-out;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 20px 5px;
+  cursor: pointer;
+}
+@media screen and (max-width:650px){
+  div.card {
+    width:30vw !important;
+    height:35vh !important;
+  }
+}
+.card-container .card:first-child {
+  transform: translate(-50%, -50%) rotate(10deg);
+  background: url(https://static.vecteezy.com/system/resources/previews/001/594/577/non_2x/blue-purple-gradient-geometric-shape-free-vector.jpg)
+    center;
+  background-size: cover;
+}
+.card-container .card:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(5deg);
+  background: url(https://static.vecteezy.com/system/resources/previews/002/072/308/non_2x/abstract-wavy-gradient-background-free-vector.jpg)
+    center;
+  background-size: cover;
+}
+.card-container .card:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(-5deg);
+  background: url(https://static.vecteezy.com/system/resources/previews/004/338/513/non_2x/abstract-fluid-shape-background-gradient-dynamic-orange-and-yellow-vector.jpg)
+    center;
+  background-size: cover;
+}
+.card-container .card:last-child {
+  transform: translate(-50%, -50%) rotate(-10deg);
+  background: url(https://static.vecteezy.com/system/resources/previews/002/836/814/non_2x/blue-purple-absract-geometri-gradient-background-free-vector.jpg)
+    center;
+  background-size: cover;
+}
+.card-container:hover .card {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.animation {
+  background: white;
+  width: 100vw;
+  display: flex;
+  transition: all 1s ease;
 }
 
-.content p:nth-of-type(1) {
-  font-size:36px;
-  line-height:60px;
+#btn {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  display: none;
   position: absolute;
-  bottom:70px;
+  bottom: 5vh;
 }
-.content p:nth-of-type(2) {
+h1  {
+  color: white;
   position: absolute;
-  bottom:40px;
+  top: 5vh;
+  font-family: "Lexend", sans-serif;
+}
+h6 {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+}
+p {
+  font-size: 0.9em;
+  font-family: monospace;
+}
+h1,
+h6,
+p {
+  user-select: none;
+}
+.more {
+  background: transparent;
+  border: 1px solid #fff;
+  color: white;
+  padding: 3px 0.9em;
+  border-radius: 10px;
+}
+.more:hover,
+#btn:hover {
+  background: white;
+  color: gray;
+  cursor: pointer;
+}
+ion-icon {
+  color: white;
+  font-size: 20px;
 }
