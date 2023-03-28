@@ -5,64 +5,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Vexx Television</title>
-    <link rel="icon" href="../../assets/images/logotitico.png">
-    <link rel="stylesheet" href="./oscar.css">
-    <link rel="stylesheet" href="../../assets/css/animacao.css">
-    <script src="../../assets/JavaScript/oscar.js" defer></script>
+    <link rel="icon" href="./assets/images/logotitico.png">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/animacao.css">
+    <script src="./assets/JavaScript/index.js" defer></script>
 </head>
 
 <body>
-    <iframe href="../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+    <iframe src="./layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
     <!--slider carrosel destaques-->
+    <h1 id="titulo">EM ALTA</h1>
     <main class="main">
         <section class="galery">
             <div class="fotos">
-                <a href="layouts/modelos/detalhes1.html" target="_blank" rel="noopener noreferrer">
-                    <img src="./imagensmodelo/john-wick-3.jpg" alt="placeholder2">
+                <a href="./../pages/modelos/detalhes/creed" target="_blank" rel="noopener noreferrer">
+                    <img class="fotocarosel" src="assets/images/thelastofus.png" alt="thelastofus">
                 </a>
                 <a href="layouts/modelos/enem.html" target="_blank" rel="noopener noreferrer">
-                    <img src="./imagensmodelo/velozesefuriosos7.jpg" alt="enem">
+                    <img class="fotocarosel" src="assets/images/cidadedeus.jpg" alt="enem">
                 </a>
-                <a href="layouts/modelos/filmes.html" target="_blank" rel="noopener noreferrer">
-                    <img src="./imagensmodelo/cidadeofgod.jpg" alt="placeholder2">
+                <a href="layouts/modelos/regularshow.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/regularshow.jpg" alt="placeholder2">
                 </a>
-                <a href="layouts/modelos/contato.html" target="_blank" rel="noopener noreferrer">
-                    <img src="./imagensmodelo/jujutsu0.jpg" alt="placeholder2">
+                <a href="layouts/modelos/bettercallsaul.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/bettercallsaul.jpg" alt="placeholder2">
                 </a>
+                 <a href="layouts/modelos/detalhes/thelastofus.html" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/thelastofus.png" alt="thelastofus">
+                </a>
+
+                
             </div>
         </section>
         <!--destaques aside-->
         <aside class="asaide">
-            <h1>EM ALTA</h1>
-            <a href="#" class="card2">
+            <a href="./pages/modelos/detalhes/thelastofus.html" class="card2">
                 <div class="destaque1">
-                    <img class="imagemdestaque" src="./imagensmodelo/sp.jpeg">
+                    <img class="imagemdestaque" src="./pages/modelos/imagensmodelo/thelastofus.jpg">
                     <div class="conteudodestaque">
-                        <h2>Sucker Punch - Mundo Surreal</h2>
-                        <p class="materia">Uma jovem é internada em um hospital psiquiátrico pelo padrasto. Lá,
-                            aventura-se num mundo surreal para fugir de sua dura realidade.
+                        <h2>The Last Of Us</h2>
+                        <p class="materia">The Last of Us é uma série de televisão dramática de suspense pós-apocalíptico, baseada no jogo...
                         </p>
                     </div>
                 </div>
             </a>
-            <a href="#" class="card2">
+            <a href="./pages/modelos/detalhes/breakingbad.html" class="card2">
                 <div class="destaque1">
-                    <img class="imagemdestaque" src="./imagensmodelo/hp.jpeg">
+                    <img class="imagemdestaque" src="./pages/modelos/imagensmodelo/breakingbad.jpg">
                     <div class="conteudodestaque">
-                        <h2>Harry Potter e a Câmara Secreta</h2>
-                        <p class="materia">Após as sofríveis férias na casa dos tios, Harry Potter se prepara para
-                            voltar a Hogwarts e começar seu segundo ano na escola de bruxos.
+                        <h2>Breaking bad</h2>
+                        <p class="materia">Breaking Bad é uma série de televisão americana criada por Vince Gilligan. A série acompanha a história de Walter White...
                         </p>
                     </div>
                 </div>
             </a>
-            <a href="#" class="card2">
+            <a href="./pages/modelos/detalhes/euphoria.html" class="card2">
                 <div class="destaque1">
-                    <img class="imagemdestaque" src="./imagensmodelo/Frozen_2_poster.jpeg">
+                    <img class="imagemdestaque" src="./pages/modelos/imagensmodelo/euphoria.jpg">
                     <div class="conteudodestaque">
-                        <h2>Frozen 2</h2>
-                        <p class="materia">De volta à infância de Elsa e Anna, as duas garotas descobrem uma história do
-                            pai, quando ainda era príncipe de Arendelle.
+                        <h2>Euphoria</h2>
+                        <p class="materia">A série fala sobre Rue, uma adolescente que é uma garota viciada que acaba de sair da reabilitação sem nenhum plano...
                         </p>
                     </div>
                 </div>
@@ -72,168 +74,201 @@
     <hr>
     <!--slider de destaques-->
     <section class="cardm">
-        <h2 class="titulo-cardm"></h2>
-        <button class="pre-btn"><img src="./imagensmodelo/arrow.png" id="img-btn"></button>
-        <button class="nxt-btn"><img src="./imagensmodelo/arrow.png" id="img-btn"></button>
+        <h2 class="titulo-cardm">Destaques</h2>
+        <button class="pre-btn"><img src="./pages/modelos/imagensmodelo/arrow.png" id="img-btn"></button>
+        <button class="nxt-btn"><img src="./pages/modelos/imagensmodelo/arrow.png" id="img-btn"></button>
         <div class="cardm-container">
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/stevenuniverse.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/JogosMortais.jpg">
+                    <img class="poster-thumb" src="./assets/images/321235.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">Jogos Mortais</h2>
-                    <span class="nota">8/10</span>
+                    <h2 class="cardm-nome">Steven Universo</h2>
+                    <span class="nota">8.5/10</span>
                 </div>
             </div>
+        </a>  
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/beeandpuppycat.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/transformers.jpg">
+                    <img class="poster-thumb" src="./assets/images/bap.jpg">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">Transformers: A Vingança dos Derrotados</h2>
-                    <span class="nota">7/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/velozesefuriosos.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Velozes & Furiosos 7</h2>
+                    <h2 class="cardm-nome">Bee and Puppycat</h2>
                     <span class="nota">9/10</span>
                 </div>
             </div>
+        </a>
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/bigmouth.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/Titanic.jpg">
+                    <img class="poster-thumb" src="./assets/images/HD-wallpaper-big-mouth-netflix.jpg">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">Titanic</h2>
-                    <span class="nota">9/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/pixels.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Pixels</h2>
+                    <h2 class="cardm-nome">Big Mouth</h2>
                     <span class="nota">8/10</span>
                 </div>
             </div>
+        </a>
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/padrinhosmagicos.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/Whiplash.jpg">
+                    <img class="poster-thumb" src="./assets/images/Os padrinhos magicos.png">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">Whiplash</h2>
+                    <h2 class="cardm-nome">Os Padrinhos Magicos</h2>
                     <span class="nota">8/10</span>
                 </div>
             </div>
+        </a>
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/saw.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/big-poster-filme-john-wick-3-parabellum-lo03-tam-90x60-cm-john-wick-3.jpg">
+                    <img class="poster-thumb" src="./assets/images/saw.png">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">John Wick 3: Parabellum</h2>
-                    <span class="nota">9,5/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/It_2017.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">IT:A coisa</h2>
-                    <span class="nota">7/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/annabelle.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Annabelle Comes Home </h2>
-                    <span class="nota">9/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/Halloween_cover.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Halloween 1978</h2>
-                    <span class="nota">7/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/zombieland.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Zombieland: Double Tap </h2>
-                    <span class="nota">8/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/Asabovesobelow.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">As above So below </h2>
-                    <span class="nota">8/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/CidadedeDeus.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Cidade de Deus</h2>
+                    <h2 class="cardm-nome">Saw</h2>
                     <span class="nota">10/10</span>
                 </div>
             </div>
+        </a>
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/adventuretime.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/meu.jpeg">
+                    <img class="poster-thumb" src="./assets/images/422873.jpg">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">Meu Malvado Favorito 3</h2>
+                    <h2 class="cardm-nome">Hora de Aventura</h2>
                     <span class="nota">9/10</span>
                 </div>
             </div>
+        </a>
             <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/regularshow.html">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/opoço.jpg">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/regularshow.jpg">
                 </div>
                 <div class="cardm-info">
-                    <h2 class="cardm-nome">O Poço</h2>
-                    <span class="nota">8/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/creed.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">creed 3</h2>
-                    <span class="nota">9/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./imagensmodelo/jujutsu.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">jujutsu kaisen 0</h2>
+                    <h2 class="cardm-nome">Apenas um Show</h2>
                     <span class="nota">10/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/jujutsu-kaisen.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/jjk.jpeg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">JuJutsu Kaisen</h2>
+                    <span class="nota">10/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/batman.html"></a>
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/The_Batman_poster.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Batman</h2>
+                    <span class="nota">7/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/euphoria.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/euphoria.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Euphoria</h2>
+                    <span class="nota">9.5/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/red.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/red.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Red</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/thelastofus.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/thelastofus.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">The Last of Us</h2>
+                    <span class="nota">9.5/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/onepiece.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/onepiece.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">One Piece</h2>
+                    <span class="nota">10/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/harry-potter.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/hp.jpeg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Harry Poter</h2>
+                    <span class="nota">9.5/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/breakingbad.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/breakingbad.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Breaking Bad</h2>
+                    <span class="nota">10/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/gatodebotas.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/gato-de-botas-2-o-ultimo-pedido.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Gato de Botas 2</h2>
+                    <span class="nota">9/10</span>
+                </div>
+            </div>
+        </a>
+            <div class="cardm-card">
+                <a href="./layouts/modelos/detalhes/elvis.html">
+                <div class="cardm-image">
+                    <img class="poster-thumb" src="./pages/modelos/imagensmodelo/Elvis2022.jpg">
+                </div>
+                <div class="cardm-info">
+                    <h2 class="cardm-nome">Elvis</h2>
+                    <span class="nota">8.5/10</span>
                 </div>
             </div>
         </div>
+    </a>
     </section>
-    
     <!--footer-->
-    <iframe href="./layouts/footer.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="./layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
 </body>
 
 </html>

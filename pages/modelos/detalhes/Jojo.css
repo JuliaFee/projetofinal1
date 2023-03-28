@@ -1,16 +1,14 @@
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(#693e83,black, black);
+    background-image: linear-gradient(#a2c7eb,black, black);
     color:aliceblue;
     margin: 0;
+    padding: 0;
 }
 ul{
     display: flex;
     text-decoration: none;
     list-style: none;
-}
-#titulo{
-    font-size: 50px;
 }
 li:hover{
      background-color: rgb(54, 54, 54);
@@ -67,6 +65,8 @@ li {
     margin-left: 5px;
     text-align: center;
     padding: 10px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 30px;
 }
 #where{
     text-align: center;
@@ -74,6 +74,7 @@ li {
 }
 #channels{
     justify-content: center;
+    padding: 0;
 }
 .comentario{
     display: flex;
@@ -86,9 +87,16 @@ li {
 #pfp{
     width: 5%;
     height: 5%;
+    border-radius: 50px;
 }
 hr{
     opacity: 0.2;
     outline: none;
     width: 1000px;
+}
+#titulo{
+    font-size: 400%;
+}
+h1{
+    padding-left: 30px;
 }
