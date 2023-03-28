@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <link href="./style.feedback.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="../assets/images/logotitico.png">
-    <title>Feedback</title>
+    <title>Document</title>
 </head>
 <body>
-    <iframe src="../layout/header.html" frameborder="0" scrolling="no" width="100%" margin="0px"></iframe>
-    <form action="./../pages/success1.html">
-          <!--formularios-->
-          <div class="card">
-            <div class="card__inner">
-                <div class="card__face card__face--front">
-                    <div class="signin">
-                        <form action="../../layouts/modelos/contatologin.html">
-                        <h2>Deixe seu feedback</h2>
-                        <div class="form">
-                            <input type="text" placeholder="Nome" required>
-                            <input type="email" placeholder="E-mail" required>
-                            <input type="text" placeholder="Deixe seu comentário" required>
-                            <button onclick="signin()">Enviar</button>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <!--formularios-->
-       
-    </form>
-    <iframe src="../layout/footer.html" frameborder="0" scrolling="no" width="100%" margin="0px"></iframe>
-</body>
+    div
+  - stars = [1, 2, 3, 4, 5];
+    div.star
+      each star in stars
+        input(class='radio radio-#{star}' name='rating' id='star-#{star}' value='#{star}' type='radio')
 
+      each star in stars
+        label(for='star-#{star}' class='star-item star-item-#{star}') #{star} stars
+
+div(dir="rtl")
+  - stars = [1, 2, 3, 4, 5];
+    div.star
+      each star in stars
+        input(class='radio radio-#{star}' name='rating2' id='star2-#{star}' value='#{star}' type='radio')
+
+      each star in stars
+        label(for='star2-#{star}' class='star-item star-item-#{star}') #{star} stars
+</body>
 </html>
