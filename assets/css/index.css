@@ -9,7 +9,7 @@ body{
     align-items: center;
     background-color: rgb(33, 33, 33);
     color:aliceblue;
-    background-image: linear-gradient(#301E67, black, black, #301E67);
+    background: black;
 }
 hr{
     opacity: 0.2;
