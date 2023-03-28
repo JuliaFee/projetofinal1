@@ -1,12 +1,7 @@
 body{
     font-family: 'dubai medium';
-<<<<<<< HEAD:layouts/modelos/detalhes/detalhes1 copy 55.css
-    background-image: linear-gradient(#ad0101,rgb(74, 5, 5), rgb(0, 0, 0));
-    color:aliceblue
-=======
+    background-image: linear-gradient(#eadd22,rgb(171, 171, 51), rgb(0, 0, 0));
     color:aliceblue;
-    background-image: linear-gradient(#306e6a,black, black);
->>>>>>> a2132b156c90d2e552540cc133799540cf88aeeb:layouts/modelos/detalhes/Creed 3.css
 }
 ul{
     display: flex;
