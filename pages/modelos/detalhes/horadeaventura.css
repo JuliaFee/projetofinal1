@@ -1,12 +1,12 @@
 
 body{
     font-family: 'dubai medium';
-    background-image: linear-gradient(#d36f41,black, black);
+    background-image: linear-gradient(#aa894d,black, black);
     color:aliceblue;
     margin: 0;
     padding: 0;
 }
-h1{
+#titulo{
     font-size: 60px;
 }
 ul{
