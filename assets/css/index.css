@@ -1,15 +1,15 @@
-* {
+*{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Franklin Gothic Book';
+    font-family: 'dubai medium';
     margin: 0;
     align-items: center;
     background-color: rgb(33, 33, 33);
     color:aliceblue;
-    background: black;
+    background-image: linear-gradient(#301E67, black, black, black);
 }
 hr{
     opacity: 0.2;
@@ -19,19 +19,57 @@ hr{
     justify-content: center;
     text-align: center;
 }
-/*body*/
-.card2{
-    border: 3px solid #5B8FB9;
-    border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+#titulo{
+    font-size: 60px;
     padding: 30px;
-    margin: 20px;
+    padding-left: 60px;
+}
+/*body*/
+/*card destaques*/
+.card2{
+    width: 30%px;
+    height: 30%;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease-out;
     text-decoration: none;
-    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #71698b;
+  }
+  .card2:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    transition: ease-in 0.3s;
+    background-color: #201838;
+  }
+  .card2:hover p h2{
+    transition: ease-in 0.3s;
+    color: aliceblue;
+  }
+  .card2:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11);
+}
+.destaque1:hover{
+    transition: ease-in 0.3s;
+    color: aliceblue;
 }
 .asaide{
     flex-direction: column;
     display: flex;
+}
+.destaque1{
+    display: flex;
+}
+.fotosdestaque{
+    width: 40%;
+    border-radius: 10px ;
 }
 /*carrossel*/
 .galery {
@@ -47,8 +85,10 @@ hr{
 /*carrossel fotos*/
 .galery .fotos img {
     width: 19.9%;
-    background-color: whitesmoke;
-
+    border-radius: 20px;
+    padding-right: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 /*aside*/
 #aside {
@@ -63,7 +103,7 @@ hr{
 .main {
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 30px;
 }
 /*veja img*/
 .vejaimg {
@@ -183,17 +223,17 @@ z-index: 9;
     opacity: 1;
 }
 .imagemdestaque{
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     padding-right: 20px;
 }
-.destaque1{
-    display: flex;
-}
 h2{
-    padding-bottom: 10px;
+    padding-bottom: 2px;
 }
 .materia{
     font-size: 15px;
 }
-
+/*index parte 2 oscar e emmy*/
+.cardoscar{
+    
+}
