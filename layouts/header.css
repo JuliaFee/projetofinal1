@@ -1,62 +1,118 @@
 
 
-*{margin: 0; padding: 0;}
+/* helpers/grid.css */
 
-body{
-font-family: arial, helvetica, sans-serif;
-font-size: 12px;
-background-color: #000000;
-z-index: 4;
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 48em;
 }
 
+/* helpers/sticky.css */
 
-.menu{
-list-style:none;
-border:1px solid #c0c0c0;
-float: right;
-display: flex;
-align-items: center;
-background-color: #000000;
-z-index: 2;
+.sticky {
+  position: sticky;
+  will-change: transform;
 }
-.menu li{
-  position: relative;
-  float: right;
-  border-right:1px solid #c0c0c0;
-  }
-  .menu li a{color:#ffffff;
-     text-decoration:none; 
-    padding:5px 25px; 
-    display:block;
-  }
 
-.menu li a:hover{
-background:#333;
-color:#fff;
--moz-box-shadow:0 3px 10px 0 #CCC;
--webkit-box-shadow:0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
-
+.sticky--top {
+  top: 0;
 }
-.menu li  ul{
-  position:absolute;
-  top:25px;
-  left:0;
-  background-color:#000000;
-  display:none;
 
-  }
-  .menu li:hover ul, .menu li.over ul{display:block;
-  }
-  .menu li ul li{
-    border:1px solid #c0c0c0;
-    display:block;
-    width:150px;
-    }
-#juju{
-  padding-bottom: 100px;
+/* layout/base.css */
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  min-block-size: 100vh;
+}
+
+/* layout/header.css */
+
+.header {
+  background-color: black;
+  padding-block: 1em;
+  color: #7fa9cb;
+}
+.sub{
+  color: #7fa9cb;
+ border-radius: 40px;
+}
+li:hover{
+  background-color: #301E67;
+  border-radius: 40px;
 }
 #logo{
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
+}
+
+.header::after {
+  bottom: 0;
+  box-shadow: 0 0.0625em 0.5em #f2f3f3;
+  content: '';
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.header.is-active::after {
+  opacity: 1;
+}
+
+/* layout/main.css */
+
+.main {
+  padding-block: 6em;
+}
+
+/* modules/headline.css */
+
+h1 {
+  margin-block: 0 0.5em;
+}
+
+/* modules/navigation.css */
+
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__list--inline {
+  display: flex;
+  gap: 1.5em;
+}
+
+.navigation__link {
+  color: inherit;
+  display: block;
+  padding-inline: 1em;
+  text-decoration: none;
+}
+
+.navigation__link--is-active {
+  background-color: #000;
+  border-radius: 999em;
+  color: #fff;
+}
+
+/* modules/paragraph.css */
+
+p {
+  padding-block: 1.5em;
 }
