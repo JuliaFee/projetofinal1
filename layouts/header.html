@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link href="./header.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu animado - SatellaSoft</title>
+    <link rel="preload" href="./header.css" as="style">
+    <link rel="preload" href="../assets/JavaScript/header.js" as="script">
+    <script src="../assets/JavaScript/header.js"></script>
+    <link rel="stylesheet" href="./header.css">
 </head>
 
 <body>
-    <div class="container">
-        <img id="logo" src="../assets/images/vexxtvlogo.png">
-        <nav id="juju">
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categorias</a>
-                <li><a href="#">Feedback</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sig-in</a></li>
-                <li><a href="#">VexxSub</a></li>
+    <header class="header sticky sticky--top js-header">
+        <div>
+            <img id="logo" src="./../assets/images/vexxtvlogo.png">
+        </div>
+        <div class="grid">
+      
+          <nav class="navigation">
+            <ul class="navigation__list navigation__list--inline">
+             <li class="navigation__item"><a href="./../index.html" class="navigation__link">Home</a></li>
+
+              <li class="navigation__item"><a href="./../pages/categorias.html" class="navigation__link">Categorias</a></li>
+              <li class="navigation__item"><a href="./../layouts/feedback.html" class="navigation__link">Feedback</a></li>
+              <li class="navigation__item"><a href="./../pages/contatologin.html" class="navigation__link">Contato</a></li>
+              <li class="navigation__item"><a href="./../pages/contatologin.html" class="navigation__link">Sig-in</a></li>
+              <li class="sub"><a href="#" class="navigation__link">VexxSub</a></li>
             </ul>
-        </nav>
+          </nav>
+</html>
