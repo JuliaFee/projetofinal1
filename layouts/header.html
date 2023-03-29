@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu animado - SatellaSoft</title>
-    <link rel="preload" href="./header.css" as="style">
-    <link rel="preload" href="../assets/JavaScript/header.js" as="script">
-    <script src="../assets/JavaScript/header.js"></script>
-    <link rel="stylesheet" href="./header.css">
+    <title>reder</title>
+    <link href="../layouts/header.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header sticky sticky--top js-header">
-        <div>
-            <img id="logo" src="./../assets/images/vexxtvlogo.png">
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img id="logo" src="../assets/images/vexxlogobranco.png" alt="logo do site">
+            </a>
+            <nav>
+                <ul>
+                    
+                    <li><a href="./../index.html" target="_parent">página inicial</a></li>
+                    <li><a href="../pages/categorias.html" target="_parent">categorias</a></li>
+                    <li><a href="../layouts/feedback.html" target="_parent">feedback</a></li>
+                    <li><a href="../pages/contato.html" target="_parent">contato</a></li>
+                    <li><a href="../pages/VexxSub.html" target="_parent">vexxsub</a></li>
+                    <li><a href="../pages/contatologin.html" target="_parent">sign in/sign up</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="grid">
-      
-          <nav class="navigation">
-            <ul class="navigation__list navigation__list--inline">
-             <li class="navigation__item"><a href="./../index.html" class="navigation__link">Home</a></li>
-
-              <li class="navigation__item"><a href="./../pages/categorias.html" class="navigation__link">Categorias</a></li>
-              <li class="navigation__item"><a href="./../layouts/feedback.html" class="navigation__link">Feedback</a></li>
-              <li class="navigation__item"><a href="./../pages/contatologin.html" class="navigation__link">Contato</a></li>
-              <li class="navigation__item"><a href="./../pages/contatologin.html" class="navigation__link">Sig-in</a></li>
-              <li class="sub"><a href="#" class="navigation__link">VexxSub</a></li>
-            </ul>
-          </nav>
+    </header>
+</body>
 </html>
