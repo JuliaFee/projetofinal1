@@ -6,8 +6,7 @@ body {
    margin: 0;
 }
 #linktree{
-    height: 20px;
-    width: 20px;
+    width: 32px;
 }
 footer {
         text-align: center;
@@ -40,9 +39,7 @@ footer {
     min-height: 100px;
     width:100%;
     background: #212534;
-    display: flex;
     align-items: center;
-    flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
@@ -57,7 +54,6 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    display: flex;
     font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
