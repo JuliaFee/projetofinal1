@@ -20,9 +20,8 @@ hr{
     text-align: center;
 }
 #titulo{
-    font-size: 60px;
-    padding: 30px;
-    padding-left: 60px;
+    font-size: 50px;
+    padding: 70px;
 }
 /*body*/
 /*card destaques*/
@@ -147,6 +146,13 @@ width: 1000px;
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
+}
+#videoOscar{
+    justify-content: center;
+    margin-left: 380px;
+}
+#titulo{
+    padding: 10px;
 }
 .cardm-container{
     padding: 0 10vw;
