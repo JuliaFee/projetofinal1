@@ -23,7 +23,7 @@ body {
 	background-image: var(--background-image);
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-color: rgb(33, 33, 33);
+    background-image: linear-gradient(#301E67, #301E67,black,black);
     font-family: 'dubai medium'
 }
 
@@ -107,5 +107,5 @@ button {
 }
 .ima {
     width: 15%;
-    margin-left: 643px;
+    margin-left: 500px;
 }
