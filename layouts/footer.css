@@ -1,12 +1,13 @@
 body {
-    margin: 0%;
-    bottom: 0%;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-   margin: 0;
+  margin: 0%;
+  bottom: 0%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+ margin: 0;
 }
 #linktree{
-    width: 32px;
+  height: 20px;
+  width: 20px;
 }
 footer {
         text-align: center;
@@ -14,14 +15,18 @@ footer {
         padding-bottom: 0;
         border: 0;
         margin-top: 30px;
-        height: 100%;
 }
 .p1 {
-    font-size: 15px;
-    font-family: 'dubai';
-    color:whitesmoke;
-    align-items: center;
+  font-size: 15px;
+  font-family: 'dubai';
+  color:whitesmoke;
+  align-items: center;
 }
+ul{
+  margin: 0;
+  padding: 0;
+}
+<<<<<<< HEAD
 
 @property --rotate {
     syntax: "<angle>";
@@ -114,4 +119,5 @@ footer {
       --rotate: 360deg;
     }
   }
+
   

@@ -21,7 +21,7 @@ hr{
 }
 #titulo{
     font-size: 60px;
-    padding: 30px;
+    padding: 10px;
     padding-left: 60px;
 }
 /*body*/
@@ -223,15 +223,15 @@ z-index: 9;
     opacity: 1;
 }
 .imagemdestaque{
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     padding-right: 20px;
 }
 h2{
     padding-bottom: 2px;
 }
 .materia{
-    font-size: 15px;
+    font-size: 13px;
 }
 /*index parte 2 oscar e emmy*/
 .parte2 {
